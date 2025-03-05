@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../styles.css"; // Make sure to use the correct relative path
+import "../styles.css";
 
 export default function Navbar() {
   return (
@@ -11,6 +11,7 @@ export default function Navbar() {
         <Link to="/carbon">Carbon</Link>
         <Link to="/solutions">Solutions</Link>
         <Link to="/quiz">Quiz</Link>
+        <Link to="/references">References</Link> {/* New References Link */}
       </div>
     </nav>
   );
