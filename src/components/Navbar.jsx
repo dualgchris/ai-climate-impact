@@ -7,8 +7,7 @@ export default function Navbar() {
       <h1>AI & Climate Change</h1>
       <div>
         <Link to="/">Home</Link>
-        <Link to="/energy">Energy</Link>
-        <Link to="/carbon">Carbon</Link>
+        <Link to="/problems">Problems</Link>
         <Link to="/solutions">Solutions</Link>
         <Link to="/quiz">Quiz</Link>
         <Link to="/references">References</Link> {/* New References Link */}

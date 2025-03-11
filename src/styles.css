@@ -1,49 +1,93 @@
-.home-container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background-color: #ffffff;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
 
-  .home-header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .subheading {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  h2 {
-    color: #0044cc;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    line-height: 1.6;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin-bottom: 8px;
-  }
-  
-  .navbar {
-    background-color: #0044cc;
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-  }
+.references-container {
+  max-width: 900px;
+  margin: 40px auto;  /* Centers the content */
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.references-container h1 {
+  color: #0044cc;
+  margin-bottom: 10px;
+}
+
+.references-container p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.references-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.reference-card {
+  background: #ffffff;
+  border-left: 5px solid #0044cc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Keeps cards at a reasonable width */
+  margin: auto; /* Centers the cards */
+  text-align: left;
+}
+
+.reference-card h3 {
+  color: #222;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.reference-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.reference-card a {
+  display: inline-flex;
+  align-items: center;
+  color: #0044cc;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.reference-card a svg {
+  margin-left: 5px;
+}
+
+.navbar {
+  background-color: #0044cc;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px; /* Adds spacing between links */
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 8px; /* Adds left-right spacing */
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  color: white;
+  font-weight: bold;
+  padding: 0 5px; /* Adds spacing around separators */
+}
