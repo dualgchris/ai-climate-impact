@@ -1,8 +1,7 @@
 import "../styles.css";
-
 export default function EnergyConsumption() {
   return (
-    <div className="container">
+    <div className="page-container">
       <h1>How AI is Helping Fight Climate Change</h1>
 
       {/* Introduction */}
