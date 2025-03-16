@@ -1,4 +1,5 @@
 import "../styles.css";
+
 export default function EnergyConsumption() {
   return (
     <div className="page-container">
@@ -19,6 +20,16 @@ export default function EnergyConsumption() {
       {/* Water Consumption in Data Centers */}
       <section className="section">
         <h2>Water Consumption in Data Centers</h2>
+        <img 
+          src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2021_24/3484373/210618-data-center-mesa-mn-1220.jpg" 
+          alt="Data Center Environmental Impact"
+          className="data-center-image"
+        />
+        <p className="image-credit">
+          Above is an example of Apple's high water-consuming data center in Mesa, Arizona, in 2017.  
+          <br />
+          <em>Photo by Jim Todd.</em>
+        </p>
         <p>
           One prominent example discussed was Google's plan to build water-consuming 
           data centers in drought-stricken areas. Such infrastructure directly impacts 
@@ -26,6 +37,16 @@ export default function EnergyConsumption() {
           for data centers versus human needs, an issue at the heart of social problems 
           worldwide. A notable instance mentioned in the clip is the protest in Uruguay 
           over Google's proposed data center (CNBC, 2023, 6:32).
+        </p>
+        <img 
+          src="https://media-hosting.imagekit.io//c25adf912fa8443c/Screenshot%202025-03-16%20at%201.45.18%E2%80%AFPM.png?Expires=1836765922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=E5KyVEANH~J-BHZG86Tko14-v3m6OvZTQfyIf1YvB-IDrhdwxKITSkRXNWzWUO1MX0gnY2883ob5Ne8BhLGPf0m4MlCyo4Uhjv1JGIJDHHW09Xiryvd0K6iUocv6TEbyzxVohVAErDOzUgeRmrZbwlF3EWrb1lvVoeI~dH-IDIpL6jS~JNkrwN~cCGMAJ717OGR9Yg9x37ChALGx7H5f70TKuiKGh6u9q5ii1-9mt7VwU88I4l1ynYQxDuyYMqChA7QNJYcDPE2PtYOeDB9Rz09nK1kNZ3PJ~XLidX4QEOaf~M43SK4OewJlFvaHNRgQL2GaStOpuv~j03~-rvYFJQ__" 
+          alt="Google vs Microsoft Water Consumption"
+          className="water-consumption-image"
+        />
+        <p className="image-credit">
+          A comparison of Google's and Microsoft's annual water consumption in terms of Olympic-sized swimming pools.  
+          <br />
+          <em>Source: Google Environmental Report, 2023.</em>
         </p>
         <p>
           Training popular AI models requires large volumes of water to cool 

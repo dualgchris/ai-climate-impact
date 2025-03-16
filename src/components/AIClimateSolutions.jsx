@@ -60,7 +60,7 @@ export default function AIClimateSolutions() {
 
       {/* Balancing Both Sides: The AI Gambit */}
       <section className="section">
-        <h2>Balancing Both Sides: The AI Gambit</h2>
+        <h2>Balancing Both Sides</h2>
         <p>
           Many articles, such as <i>The AI Gambit: Leveraging Artificial Intelligence to Combat
           Climate Change—Opportunities, Challenges</i>, recognize that AI offers significant

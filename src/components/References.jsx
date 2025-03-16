@@ -16,7 +16,7 @@ const references = [
   },
   {
     title:
-      "The Ai Gambit: Leveraging Artificial Intelligence to Combat Climate Change—Opportunities, Challenges, and Recommendations",
+      "The AI Gambit: Leveraging Artificial Intelligence to Combat Climate Change—Opportunities, Challenges, and Recommendations",
     authors: "Cowls, J., Tsamados, A., Taddeo, M., & Floridi, L.",
     year: 2023,
     link: "https://doi.org/10.1007/s00146-021-01294-x",
@@ -41,6 +41,22 @@ const references = [
     year: 2025,
     link: "https://chat.openai.com/chat",
   },
+  {
+    title: "Apple Data Center in Mesa, Arizona",
+    authors: "Todd, J.",
+    year: 2017,
+    fullCitation:
+      "Todd, J. (2017). Apple data center in Mesa, Arizona [Photograph]. NBC News. " +
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2021_24/3484373/210618-data-center-mesa-mn-1220.jpg",
+  },
+  {
+    title: "Google vs. Microsoft Water Consumption (2023)",
+    authors: "Google Environmental Report",
+    year: 2023,
+    fullCitation:
+      "Google Environmental Report. (2023). Google vs. Microsoft water consumption [Photograph]. Google. " +
+      "https://media-hosting.imagekit.io//c25adf912fa8443c/Screenshot%202025-03-16%20at%201.45.18%E2%80%AFPM.png",
+  },
 ];
 
 export default function References() {
@@ -58,11 +74,18 @@ export default function References() {
           <p>
             <strong>Year:</strong> {ref.year}
           </p>
-          <p>
-            <a href={ref.link} target="_blank" rel="noopener noreferrer">
-              View Source <FaExternalLinkAlt />
-            </a>
-          </p>
+          {ref.link && (
+            <p>
+              <a href={ref.link} target="_blank" rel="noopener noreferrer">
+                View Source <FaExternalLinkAlt />
+              </a>
+            </p>
+          )}
+          {ref.fullCitation && (
+            <p>
+              <strong>Reference List Entry:</strong> {ref.fullCitation}
+            </p>
+          )}
         </section>
       ))}
     </div>
